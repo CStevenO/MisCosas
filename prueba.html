@@ -1,0 +1,104 @@
+<!doctype html>
+  <html>
+    <head>
+      <title>Smart Home!</title>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+      <!-- Image and text -->
+      <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+          <span class="text-white">Control</span>
+        </a>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Iluminación</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/color=ffffff" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+                <p class="card-text">Color</p>
+                <input type="color" id="marca" name="marca" value=\"""" + color + """\"/>
+                <script type="text/javascript">
+                  marca.addEventListener("change", watchColorPicker, false);
+                  function watchColorPicker(event) {
+                    var _color = event.target.value
+                    _color = _color.replace("#", "");
+                    window.location.href = "/color=" + _color;
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Arcoiris</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/arcoiris=ON" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Intercalado</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/intercalado=ON" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Secuencia</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/secuencia=ON" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Parpadeo</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/parpadeo=ON" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Centro</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/centro=ON" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Giros</h5>
+                <p class="card-text">El control está en tus manos.</p>
+                <a href="/giros=ON" class="btn btn-success">ON</a>
+                <a href="/color=000000" class="btn btn-danger">OFF</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+  </html>
