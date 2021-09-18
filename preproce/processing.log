@@ -1,0 +1,27 @@
+INFO:root:2021-04-12 15:20:34.734834: Started.
+INFO:root:2021-04-12 15:20:35.161570: The size of the raw data matrix is (757, 755).
+INFO:root:2021-04-12 15:25:25.234069: Started.
+INFO:root:2021-04-12 15:25:25.511897: The size of the raw data matrix is (756, 755).
+INFO:root:2021-04-12 15:25:25.518904: Non-ordinal categorical variables are now going to be replaced with dummy variables.
+INFO:root:2021-04-12 15:25:25.536884: Finished adding the dummy variables.
+INFO:root:2021-04-12 15:25:26.361377: Ended.
+INFO:root:2021-04-12 15:50:07.152872: Started.
+INFO:root:2021-04-12 15:50:07.479670: The size of the raw data matrix is (756, 755).
+INFO:root:2021-04-12 15:50:07.483668: Non-ordinal categorical variables are now going to be replaced with dummy variables.
+INFO:root:2021-04-12 15:50:07.535635: Finished adding the dummy variables.
+INFO:root:2021-04-12 15:50:08.648953: Ended.
+INFO:root:2021-04-12 15:51:20.991820: Started.
+INFO:root:2021-04-12 15:51:21.306627: The size of the raw data matrix is (756, 755).
+INFO:root:2021-04-12 15:51:21.311621: Non-ordinal categorical variables are now going to be replaced with dummy variables.
+INFO:root:2021-04-12 15:51:21.331611: Finished adding the dummy variables.
+INFO:root:2021-04-12 15:51:22.445924: Ended.
+INFO:root:2021-04-12 15:52:36.432345: Started.
+INFO:root:2021-04-12 15:52:36.844092: The size of the raw data matrix is (756, 755).
+INFO:root:2021-04-12 15:52:36.851088: Non-ordinal categorical variables are now going to be replaced with dummy variables.
+INFO:root:2021-04-12 15:52:37.284821: Finished adding the dummy variables.
+INFO:root:2021-04-12 15:52:38.788896: Ended.
+INFO:root:2021-04-12 15:53:38.753816: Started.
+INFO:root:2021-04-12 15:53:39.072618: The size of the raw data matrix is (756, 755).
+INFO:root:2021-04-12 15:53:39.078615: Non-ordinal categorical variables are now going to be replaced with dummy variables.
+INFO:root:2021-04-12 15:53:39.370439: Finished adding the dummy variables.
+INFO:root:2021-04-12 15:53:40.472760: Ended.
