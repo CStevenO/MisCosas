@@ -6,6 +6,7 @@ def clasificar_regalo(id):
             return "boy"
         else:
             return "girl"
+            
     else:
         if id%2 == 0:
             return "man"
